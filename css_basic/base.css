@@ -304,7 +304,26 @@ h6 {
     display: block;
   }
 
+  main {
+    flex-direction: column;
+    /* Stack article and aside vertically */
+  }
+
   header .right {
     float: none;
   }
+}
+
+@media (max-width: 600px) {
+  .logo {
+    font-size: 1.5rem;
+    /* Smaller logo for smaller screens */
+    font-weight: bold;
+    margin-right: 1rem;
+  }
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #F80002;
 }
